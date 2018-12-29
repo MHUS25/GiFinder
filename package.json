@@ -9,7 +9,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.2",
-    "react-test-renderer": "^16.7.0"
+    "react-test-renderer": "^16.7.0",
+    "travis": "^0.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

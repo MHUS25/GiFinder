@@ -6,3 +6,10 @@ cache:
     - node_modules
 script:
   - npm test
+  - npm build
+deploy:
+  app: giffy-search
+  provider: heroku
+  on:
+    branch: master
+  api_key: HEROKU_API_KEY
