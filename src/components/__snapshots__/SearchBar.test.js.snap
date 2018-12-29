@@ -1,7 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`it renders SearchBar 1`] = `undefined`;
-
 exports[`renders SearchBar 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
