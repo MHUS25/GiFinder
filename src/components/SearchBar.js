@@ -8,7 +8,7 @@ class SearchBar extends Component {
 
     onInputChange(query) {
         this.setState({query});
-        this.props.onTermChange(query);
+        this.props.onQueryChange(query);
     }
 
     render() {
