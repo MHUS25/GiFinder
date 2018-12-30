@@ -19,6 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": <input
         onChange={[Function]}
+        placeholder="Search for GIFs"
       />,
       "className": "search",
     },
@@ -29,6 +30,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "onChange": [Function],
+        "placeholder": "Search for GIFs",
       },
       "ref": null,
       "rendered": null,
@@ -44,6 +46,7 @@ ShallowWrapper {
       "props": Object {
         "children": <input
           onChange={[Function]}
+          placeholder="Search for GIFs"
         />,
         "className": "search",
       },
@@ -54,6 +57,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "onChange": [Function],
+          "placeholder": "Search for GIFs",
         },
         "ref": null,
         "rendered": null,
