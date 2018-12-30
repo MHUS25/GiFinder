@@ -35,3 +35,13 @@ h1 {
   font-family: futura;
   font-size: 50px
 }
+
+.gif-item {
+    width: 100%;
+}
+
+.gif-list {
+    column-gap: 10;
+    margin: 1.5 0;
+    padding: 0;
+}
