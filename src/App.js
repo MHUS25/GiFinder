@@ -14,7 +14,7 @@ class App extends Component {
     }
 
   handleQueryChange(query) {
-    const url = `http://api.giphy.com/v1/gifs/search?q=${query}&api_key=txUDYZkPAy3Xcj0ocBlnlqjT0RX8nwu3`;
+    const url = `http://api.giphy.com/v1/gifs/search?q=${query.replace(/\s/g, '+')}&api_key=txUDYZkPAy3Xcj0ocBlnlqjT0RX8nwu3`;
 
     fetch(url)
         .then(res => res.json())
