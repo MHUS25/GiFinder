@@ -11,6 +11,7 @@ class App extends Component {
         this.state = {
             gifs: []
         }
+      this.handleQueryChange = this.handleQueryChange.bind(this);
     }
 
   handleQueryChange(query) {
