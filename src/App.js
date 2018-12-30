@@ -19,11 +19,9 @@ class App extends Component {
     fetch(url)
         .then(res => res.json())
         .then(res => {
-          console.log(res.data[0]);
+          this.setState({ gifs: res.data })
           })
   }
-
-
 
   render() {
     return (
