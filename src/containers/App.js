@@ -9,7 +9,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <SearchBar onTermChange={this.props.actions.requestGifs} />
+        <SearchBar onQueryChange={this.props.actions.requestGifs} />
       </div>
     );
   }
