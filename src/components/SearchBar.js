@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component {
-    constructor() {
-        super();
-        this.state = { query: '' }
-    }
 
     onInputChange(query) {
-        this.setState({query});
         this.props.onQueryChange(query);
     }
 
