@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as Actions from '../actions';
 import SearchBar from '../components/SearchBar';
-import '../styles/app.css';
+import '../styles/App.css';
 
 class App extends React.Component {
   render() {
