@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import './App.css';
+import '../styles/App.css';
 import SearchBar from './components/SearchBar';
 import GifList from './components/GifList';
 
