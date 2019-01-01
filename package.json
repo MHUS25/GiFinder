@@ -12,6 +12,7 @@
     "react-scripts": "2.1.2",
     "react-test-renderer": "^16.7.0",
     "redux": "^4.0.1",
+    "superagent": "^4.1.0",
     "travis": "^0.1.1"
   },
   "scripts": {
