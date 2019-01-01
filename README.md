@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/MHUS25/giphy-search.svg?branch=master)](https://travis-ci.org/MHUS25/giphy-search)
+[![Build Status](https://travis-ci.org/MHUS25/GiFinder.svg?branch=master)](https://travis-ci.org/MHUS25/GiFinder)
 # GiFinder
 A GIF search app built with React, Redux & the Giphy API.
 
