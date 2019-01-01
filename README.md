@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/MHUS25/giphy-search.svg?branch=master)](https://travis-ci.org/MHUS25/giphy-search)
 # GiFinder
-A GIF search app using React, Redux & the Giphy API.
+A GIF search app built with React, Redux & the Giphy API.
+
+The main motivation for this project is to improve my understanding of state management with Redux.
 
 [App in production](http://gifinder.surge.sh/)
 
